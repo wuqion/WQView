@@ -30,12 +30,7 @@
     },
     {
       "name": "VC",
-      "source_files": "WQView/Classes/VC/**/*",
-      "dependencies": {
-        "SDWebImage": [
-          "~> 4.0.0"
-        ]
-      }
+      "source_files": "WQView/Classes/VC/**/*"
     }
   ]
 }

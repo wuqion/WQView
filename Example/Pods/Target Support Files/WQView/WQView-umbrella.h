@@ -11,6 +11,7 @@
 #endif
 
 #import "WQView.h"
+#import "WQVC.h"
 
 FOUNDATION_EXPORT double WQViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char WQViewVersionString[];
