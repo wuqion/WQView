@@ -18,18 +18,13 @@
   "platforms": {
     "ios": "8.0"
   },
-  "dependencies": {
-    "AFNetworking": [
-      "~> 2.3"
-    ]
-  },
   "subspecs": [
     {
       "name": "Base",
       "source_files": "WQView/Classes/Base/**/*",
       "dependencies": {
-        "SDWebImage": [
-          "~> 4.0.0"
+        "AFNetworking": [
+
         ]
       }
     },

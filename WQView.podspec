@@ -31,11 +31,10 @@ Pod::Spec.new do |s|
 #  s.source_files = 'WQView/Classes/**/*'
   s.subspec 'Base' do |b|
       b.source_files = 'WQView/Classes/Base/**/*'
-      b.dependency 'SDWebImage', '~> 4.0.0'
+      b.dependency 'AFNetworking'
   end
-  s.subspec 'VC' do |b|
-       b.source_files = 'WQView/Classes/VC/**/*'
-       b.dependency 'SDWebImage', '~> 4.0.0'
+  s.subspec 'VC' do |c|
+       c.source_files = 'WQView/Classes/VC/**/*'
    end
   # s.resource_bundles = {
   #   'WQView' => ['WQView/Assets/*.png']
@@ -43,5 +42,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'AFNetworking', '~> 2.3'
+#   s.dependency 'AFNetworking', '~> 2.3'
 end

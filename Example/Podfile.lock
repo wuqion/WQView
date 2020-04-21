@@ -20,8 +20,12 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - WQView (0.2.0):
-    - AFNetworking (~> 2.3)
+  - WQView (0.3.0):
+    - WQView/Base (= 0.3.0)
+    - WQView/VC (= 0.3.0)
+  - WQView/Base (0.3.0):
+    - AFNetworking
+  - WQView/VC (0.3.0)
 
 DEPENDENCIES:
   - WQView (from `../`)
@@ -36,7 +40,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
-  WQView: 0e2ac0277907b5d00692299fb1aa3f7fdbb7497c
+  WQView: b06c94e880bbb499828e350686ebb2c1d801ac83
 
 PODFILE CHECKSUM: 982eb8ef14cb569b8c2d0383f29d57c261804581
 
