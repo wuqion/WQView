@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WQView'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'ceshi'
 
 # This description is used to generate tags and improve search results.
@@ -28,13 +28,20 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'WQView/Classes/**/*'
-  
+#  s.source_files = 'WQView/Classes/**/*'
+  s.subspec 'Base' do |b|
+      b.source_files = 'WQView/Classes/Base/**/*'
+      b.dependency 'SDWebImage', '~> 4.0.0'
+  end
+  s.subspec 'VC' do |b|
+       b.source_files = 'WQView/Classes/VC/**/*'
+       b.dependency 'SDWebImage', '~> 4.0.0'
+   end
   # s.resource_bundles = {
   #   'WQView' => ['WQView/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'AFNetworking', '~> 2.3'
 end
