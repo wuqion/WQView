@@ -1,9 +1,9 @@
 {
   "name": "WQView",
-  "version": "0.1.0",
-  "summary": "A short description of WQView.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/wuqiongaia@163.com/WQView",
+  "version": "0.3.0",
+  "summary": "ceshi",
+  "description": "ceshiceshiceshiceshi",
+  "homepage": "https://github.com/wuqion/WQView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,35 @@
     "wuqiongaia@163.com": "wuqiongaia@163.com"
   },
   "source": {
-    "git": "https://github.com/wuqiongaia@163.com/WQView.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/wuqion/WQView.git",
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "WQView/Classes/**/*"
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Base",
+      "source_files": "WQView/Classes/Base/**/*",
+      "dependencies": {
+        "SDWebImage": [
+          "~> 4.0.0"
+        ]
+      }
+    },
+    {
+      "name": "VC",
+      "source_files": "WQView/Classes/VC/**/*",
+      "dependencies": {
+        "SDWebImage": [
+          "~> 4.0.0"
+        ]
+      }
+    }
+  ]
 }

@@ -1,15 +1,42 @@
 PODS:
-  - WQView (0.1.0)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - WQView (0.2.0):
+    - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
   - WQView (from `../`)
+
+SPEC REPOS:
+  https://git.coding.net/CocoaPods/Specs.git:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   WQView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WQView: 25448bd63e2f7980223e7c72645459d4b3838db5
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  WQView: 0e2ac0277907b5d00692299fb1aa3f7fdbb7497c
 
 PODFILE CHECKSUM: 982eb8ef14cb569b8c2d0383f29d57c261804581
 
