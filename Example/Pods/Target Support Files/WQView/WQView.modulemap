@@ -1,0 +1,6 @@
+framework module WQView {
+  umbrella header "WQView-umbrella.h"
+
+  export *
+  module * { export * }
+}

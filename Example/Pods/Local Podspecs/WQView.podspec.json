@@ -1,0 +1,22 @@
+{
+  "name": "WQView",
+  "version": "0.1.0",
+  "summary": "A short description of WQView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wuqiongaia@163.com/WQView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wuqiongaia@163.com": "wuqiongaia@163.com"
+  },
+  "source": {
+    "git": "https://github.com/wuqiongaia@163.com/WQView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WQView/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module Pods_WQView_Example {
+  umbrella header "Pods-WQView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
