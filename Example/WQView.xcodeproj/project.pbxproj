@@ -21,6 +21,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		79FC8A6D244F135F00EFCB2F /* WQView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FC8A6C244F135F00EFCB2F /* WQView.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9C8367E075C6C33D7E334803 /* Pods_WQView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3DE4831C65CF513D5C552A /* Pods_WQView_Example.framework */; };
 		D7EAE6D97A1803635665E502 /* Pods_WQView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D583645E783D54A3B4750D /* Pods_WQView_Tests.framework */; };
@@ -59,14 +60,16 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6C3DE4831C65CF513D5C552A /* Pods_WQView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WQView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D8D43C4C1BCD49A9D54D68B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6D8D43C4C1BCD49A9D54D68B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78D583645E783D54A3B4750D /* Pods_WQView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WQView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79FC8A6B244F135F00EFCB2F /* WQView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WQView.h; path = ../../WQView/Classes/WQView.h; sourceTree = "<group>"; };
+		79FC8A6C244F135F00EFCB2F /* WQView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WQView.m; path = ../../WQView/Classes/WQView.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9007678526D1734A6FF36D21 /* Pods-WQView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQView_Example.release.xcconfig"; path = "Target Support Files/Pods-WQView_Example/Pods-WQView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		98908E37CDA4ABBBB5E3CC90 /* Pods-WQView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQView_Tests.release.xcconfig"; path = "Target Support Files/Pods-WQView_Tests/Pods-WQView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9AAC6215C4300BC8FD07942F /* WQView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WQView.podspec; path = ../WQView.podspec; sourceTree = "<group>"; };
-		D84B89AC030CE226C8B349D7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9AAC6215C4300BC8FD07942F /* WQView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WQView.podspec; path = ../WQView.podspec; sourceTree = "<group>"; };
+		D84B89AC030CE226C8B349D7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +137,8 @@
 			children = (
 				6003F59C195388D20070C39A /* WQAppDelegate.h */,
 				6003F59D195388D20070C39A /* WQAppDelegate.m */,
+				79FC8A6B244F135F00EFCB2F /* WQView.h */,
+				79FC8A6C244F135F00EFCB2F /* WQView.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* WQViewController.h */,
 				6003F5A6195388D20070C39A /* WQViewController.m */,
@@ -193,7 +198,6 @@
 				57DD6A7D2BC903B9772D30CB /* Pods-WQView_Tests.debug.xcconfig */,
 				98908E37CDA4ABBBB5E3CC90 /* Pods-WQView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +262,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -366,6 +371,7 @@
 			files = (
 				6003F59E195388D20070C39A /* WQAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* WQViewController.m in Sources */,
+				79FC8A6D244F135F00EFCB2F /* WQView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
