@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.source_files = 'WQView/Classes/**/*'
   s.subspec 'Base' do |b|
       b.source_files = 'WQView/Classes/Base/**/*'
-      s.dependency 'AFNetworking'
+      b.dependency 'AFNetworking'
   end
   s.subspec 'VC' do |c|
        c.source_files = 'WQView/Classes/VC/**/*'
